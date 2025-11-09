@@ -9,7 +9,12 @@ dist/
 *.egg-info/
 
 # VS Code
+# keep workspace settings file tracked, but ignore other VS Code state
 .vscode/
+!.vscode/settings.json
+
+# Python venv
+.venv/
 
 # OS files
 .DS_Store
